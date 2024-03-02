@@ -1,5 +1,5 @@
-import { Metadata } from 'next'
 import React from 'react'
+import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'contato',
@@ -8,7 +8,9 @@ export const metadata: Metadata = {
 
 const ContatoPage = () => {
   return (
+    <>
     <div>ContatoPage</div>
+    </>
   )
 }
 
